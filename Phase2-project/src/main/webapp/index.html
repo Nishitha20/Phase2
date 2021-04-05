@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="DBDBF0">
+	<table width="100%">
+        <tr height="100px">
+            <td colspan="3" align="center"><h1>Airline Reservation</h1></td>
+               <tr height="100px" align="center"><td colspan="4">
+                   <form action="AvailFlights.jsp" method="post"><table>
+                       <tr><td align="right"><h3 style="font-size: bold">Arrival Date : </h3></td><td><input type="date" name="date"/></td></tr>
+                       <tr><td align="right"><h3 style="font-size: bold">Departure Date : </h3></td><td><input type="date" name="date"/></td></tr>
+                       <tr><td align="right"><h3 style="font-size: bold">Source : </h3></td><td> <select name="source">
+                           <option value="America">America</option>
+                           <option value="Singapore">Singapore</option>
+                           <option value="Japan">Japan</option>
+                           <option value="India">India</option>
+                           <option value="Zimbobwe">Zimbobwe</option>
+                        </select></td> </tr>
+                        <tr><td align="right"> <h3 style="font-size: bold">Destination : </h3></td><td> <select name="dest">
+                           <option value="America">America</option>
+                           <option value="Japan">Japan</option>
+                           <option value="England">England</option>
+                           <option value="India">India</option>
+                           <option value="Singapore">Singapore</option>
+                         </select></td> </tr>  
+                         <tr><td align="right"><h3 style="font-size: bold">Number of persons : </h3></td><td><input type="number" name="count"/></td></tr>  
+                         <tr><td></td><td><button  style="width: 150px;" type="submit">Search</button></td></tr>
+                     </form></td></tr>  
+      </table></tr>
+</body>
+</html>
